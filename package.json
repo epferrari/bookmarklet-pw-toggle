@@ -1,0 +1,19 @@
+{
+  "name": "password-toggle-bookmarklet",
+  "version": "1.0.0",
+  "description": "Convenience bookmarklet for toggling visibility of passwords in web forms",
+  "main": "pw-toggle.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"uglifyjs --compress --mangle -- pw-toggle.js > pw-toggle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/epferrari/password-toggle-bookmarklet"
+  },
+  "keywords": [
+    "bookmarklet"
+  ],
+  "author": "Ethan Ferrari <epferrari309@gmail.com>",
+  "license": "MIT"
+}
